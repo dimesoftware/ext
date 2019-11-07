@@ -33,10 +33,8 @@ namespace Dime.ExtJs
         /// Casts a string to the group
         /// </summary>
         /// <param name="groupedString">The group string as passed in by the Ext framework</param>
-        public static explicit operator Group(string groupedString)
-        {
-            return string.IsNullOrEmpty(groupedString) ? null : JsonConvert.DeserializeObject<Group>(groupedString);
-        }
+        public static explicit operator Group(string groupedString) 
+            => string.IsNullOrEmpty(groupedString) ? null : JsonConvert.DeserializeObject<Group>(groupedString);
 
         #endregion Methods
     }

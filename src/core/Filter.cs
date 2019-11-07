@@ -17,7 +17,7 @@ namespace Dime.ExtJs
         /// </summary>
         public Filter()
         {
-            this.And = true;
+            And = true;
         }
 
         #endregion Constructor
@@ -52,13 +52,7 @@ namespace Dime.ExtJs
         /// Checks whether the filter needs to be done on an associated model
         /// </summary>
         /// <returns>True if the filter contains a complex model</returns>
-        public bool IsComplex
-        {
-            get
-            {
-                return (this.Property ?? "").Split('.').Count() > 1;
-            }
-        }
+        public bool IsComplex => (Property ?? "").Split('.').Count() > 1;
 
         /// <summary>
         ///
@@ -71,7 +65,7 @@ namespace Dime.ExtJs
         {
             int c = 1;
             Dictionary<int, string> properties = new Dictionary<int, string>();
-            this.Property.Split('.').ToList().ForEach(x =>
+            Property.Split('.').ToList().ForEach(x =>
             {
                 properties.Add(c, x);
                 c++;

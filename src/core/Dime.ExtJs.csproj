@@ -9,23 +9,22 @@
 
   <PropertyGroup>
     <Authors>Dimenics</Authors>
-    <TargetFrameworks>netstandard2.0;netcoreapp2.0;netcoreapp1.1;net461</TargetFrameworks>
+    <TargetFrameworks>netstandard2.1;net461</TargetFrameworks>
     <AssemblyName>Dime.ExtJs</AssemblyName>
     <PackageId>Dime.ExtJs</PackageId>
-    <PackageIconUrl>http://dimenuget.azurewebsites.net/Images/dimenuget.png</PackageIconUrl>
-    <RuntimeFrameworkVersion Condition=" '$(TargetFramework)' == 'netcoreapp1.1' ">1.1.1</RuntimeFrameworkVersion>
+    <PackageIconUrl>http://dimenuget.azurewebsites.net/Images/dimenuget.png</PackageIconUrl>    
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.1.5</Version>
-    <Description>.NET classes for ExtJS operations such as groupers, sorters and filters</Description>
-    <Copyright>Copyright © 2017</Copyright>
+    <Version>1.1.0.0</Version>
+    <Description>.NET classes for ExtJS operations such as grouping, sorting and filtering</Description>
+    <Copyright>Copyright © 2019</Copyright>
     <NeutralLanguage>en</NeutralLanguage>
     <IncludeSource>True</IncludeSource>
     <IncludeSymbols>True</IncludeSymbols>
     <RootNamespace>Dime.ExtJs</RootNamespace>
-    <AssemblyVersion>1.0.1.5</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </PropertyGroup>
 
   <ItemGroup>

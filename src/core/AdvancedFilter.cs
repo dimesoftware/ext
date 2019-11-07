@@ -1,7 +1,7 @@
 ﻿namespace Dime.ExtJs
 {
     /// <summary>
-    ///
+    /// Represents an advanced filter that allows to define the relationship with other instances
     /// </summary>
     public class AdvancedFilter : Filter
     {
@@ -19,6 +19,11 @@
         #region Properties
 
         /// <summary>
+        /// Gets or sets the group key to which this filter belongs
+        /// </summary>
+        public string Group { get; set; }
+
+        /// <summary>
         /// Gets or sets the filter's condition
         /// </summary>
         public string Condition { get; set; }
@@ -26,13 +31,7 @@
         /// <summary>
         /// Gets or sets the flag to indicate whether the filter is 'AND' or 'OR'
         /// </summary>
-        public override bool And
-        {
-            get
-            {
-                return this.Condition != "OR";
-            }
-        }
+        public override bool And => Condition != "OR";
 
         #endregion Properties
     }
