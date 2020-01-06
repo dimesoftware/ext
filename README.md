@@ -23,9 +23,10 @@
 
 ## Installation
 
-Use the package manager NuGet to install Dime.System:
+Use the package manager NuGet to install Dime.ExtJs:
 
-`dotnet add package Dime.System`
+- dotnet cli: `dotnet add package Dime.ExtJs`
+- Package manager: `Install-Package Dime.ExtJs`
 
 ## Usage
 
