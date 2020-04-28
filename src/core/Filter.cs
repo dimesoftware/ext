@@ -10,8 +10,6 @@ namespace Dime.ExtJs
     [DebuggerDisplay("{Property} - {Value}")]
     public class Filter : IFilter
     {
-        #region Constructor
-
         /// <summary>
         /// Initializes a new instance of the <see cref="Filter"/> class
         /// </summary>
@@ -19,10 +17,6 @@ namespace Dime.ExtJs
         {
             And = true;
         }
-
-        #endregion Constructor
-
-        #region Properties
 
         /// <summary>
         /// Gets or sets the property name
@@ -44,10 +38,6 @@ namespace Dime.ExtJs
         /// </summary>
         public virtual bool And { get; set; }
 
-        #endregion Properties
-
-        #region Methods
-
         /// <summary>
         /// Checks whether the filter needs to be done on an associated model
         /// </summary>
@@ -58,9 +48,6 @@ namespace Dime.ExtJs
         ///
         /// </summary>
         /// <returns></returns>
-        /// <history>
-        /// [HB] 03/11/2016 - Refactor into filter class
-        /// </history>
         public IDictionary<int, string> GetFields()
         {
             int c = 1;
@@ -73,7 +60,5 @@ namespace Dime.ExtJs
 
             return properties;
         }
-
-        #endregion Methods
     }
 }

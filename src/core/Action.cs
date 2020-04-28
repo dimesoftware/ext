@@ -5,18 +5,12 @@
     /// </summary>
     public abstract class Action
     {
-        #region Constructor
-
         /// <summary>
         /// Initializes a new instance of the <see cref="Action"/> class
         /// </summary>
-        public Action()
+        protected Action()
         {
         }
-
-        #endregion Constructor
-
-        #region Properties
 
         /// <summary>
         /// Gets or sets the property on which the action to invoke
@@ -43,7 +37,5 @@
         /// Gets or sets the name of the complex type
         /// </summary>
         public string ComplexTypeName { get; set; }
-
-        #endregion Properties
     }
 }

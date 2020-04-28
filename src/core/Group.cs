@@ -7,8 +7,6 @@ namespace Dime.ExtJs
     /// </summary>
     public class Group : Action
     {
-        #region Constructor
-
         /// <summary>
         /// Initializes a new instance of the <see cref="Group"/> class
         /// </summary>
@@ -16,18 +14,10 @@ namespace Dime.ExtJs
         {
         }
 
-        #endregion Constructor
-
-        #region Properties
-
         /// <summary>
-        /// Gets or sets the flag whether this is a comple grouper
+        /// Gets or sets the flag whether this is a complex grouper
         /// </summary>
         public bool ComplexType { get; set; }
-
-        #endregion Properties
-
-        #region Methods
 
         /// <summary>
         /// Casts a string to the group
@@ -35,7 +25,5 @@ namespace Dime.ExtJs
         /// <param name="groupedString">The group string as passed in by the Ext framework</param>
         public static explicit operator Group(string groupedString) 
             => string.IsNullOrEmpty(groupedString) ? null : JsonConvert.DeserializeObject<Group>(groupedString);
-
-        #endregion Methods
     }
 }
