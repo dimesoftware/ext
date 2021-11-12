@@ -1,6 +1,6 @@
 # Dime.Ext
 
-[![Build Status](https://dev.azure.com/dimenicsbe/Utilities/_apis/build/status/Ext%20-%20MAIN%20-%20CI?branchName=master)](https://dev.azure.com/dimenicsbe/Utilities/_build/latest?definitionId=66&branchName=master) [![Dime.ExtJs package in Dime.Scheduler feed in Azure Artifacts](https://feeds.dev.azure.com/dimenicsbe/_apis/public/Packaging/Feeds/a7b896fd-9cd8-4291-afe1-f223483d87f0/Packages/07e6d457-5eb4-4a37-888b-e01c31169065/Badge)](https://dev.azure.com/dimenicsbe/Utilities/_packaging?_a=package&feed=a7b896fd-9cd8-4291-afe1-f223483d87f0&package=07e6d457-5eb4-4a37-888b-e01c31169065&preferRelease=true)
+[![Build Status](https://dev.azure.com/dimesoftware/Utilities/_apis/build/status/Ext%20-%20MAIN%20-%20CI?branchName=master)](https://dev.azure.com/dimesoftware/Utilities/_build/latest?definitionId=66&branchName=master) [![Dime.ExtJs package in Dime.Scheduler feed in Azure Artifacts](https://feeds.dev.azure.com/dimesoftware/_apis/public/Packaging/Feeds/a7b896fd-9cd8-4291-afe1-f223483d87f0/Packages/07e6d457-5eb4-4a37-888b-e01c31169065/Badge)](https://dev.azure.com/dimesoftware/Utilities/_packaging?_a=package&feed=a7b896fd-9cd8-4291-afe1-f223483d87f0&package=07e6d457-5eb4-4a37-888b-e01c31169065&preferRelease=true)
 
 ## Introduction
 
