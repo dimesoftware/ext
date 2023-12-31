@@ -18,7 +18,7 @@ namespace Dime.ExtJs
         /// Casts a string to the sorter
         /// </summary>
         /// <param name="orderString">The order string as passed in by the Ext framework</param>
-        public static explicit operator Sort(string orderString) 
+        public static explicit operator Sort(string orderString)
             => string.IsNullOrEmpty(orderString) ? null : JsonConvert.DeserializeObject<Sort>(orderString);
     }
 }
