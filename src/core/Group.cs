@@ -1,5 +1,4 @@
-﻿using Newtonsoft.Json;
-
+﻿
 namespace Dime.ExtJs
 {
     /// <summary>
@@ -18,12 +17,5 @@ namespace Dime.ExtJs
         /// Gets or sets the flag whether this is a complex grouper
         /// </summary>
         public bool ComplexType { get; set; }
-
-        /// <summary>
-        /// Casts a string to the group
-        /// </summary>
-        /// <param name="groupedString">The group string as passed in by the Ext framework</param>
-        public static explicit operator Group(string groupedString)
-            => string.IsNullOrEmpty(groupedString) ? null : JsonConvert.DeserializeObject<Group>(groupedString);
     }
 }

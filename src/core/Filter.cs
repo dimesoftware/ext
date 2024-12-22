@@ -51,7 +51,7 @@ namespace Dime.ExtJs
         public IDictionary<int, string> GetFields()
         {
             int c = 1;
-            Dictionary<int, string> properties = new Dictionary<int, string>();
+            Dictionary<int, string> properties = [];
             Property.Split('.').ToList().ForEach(x =>
             {
                 properties.Add(c, x);
