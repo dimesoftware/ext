@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<Authors>Dime Software</Authors>
-		<TargetFrameworks>net8.0</TargetFrameworks>
+		<TargetFrameworks>net8.0;net9.0</TargetFrameworks>
 		<AssemblyName>Dime.ExtJs</AssemblyName>
 		<PackageId>Dime.ExtJs</PackageId>
 		<PackageIconUrl>https://cdn.dime-software.com/dime-software/logo-shape.png</PackageIconUrl>
@@ -9,24 +9,18 @@
 		<GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
 		<GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-		<Version>1.2.0</Version>
+		<Version>2.0.0</Version>
 		<Description>.NET classes for ExtJS operations such as grouping, sorting and filtering</Description>
 		<Copyright>Dime Software © 2024</Copyright>
 		<NeutralLanguage>en</NeutralLanguage>
 		<IncludeSource>True</IncludeSource>
 		<IncludeSymbols>True</IncludeSymbols>
 		<RootNamespace>Dime.ExtJs</RootNamespace>
-		<AssemblyVersion>1.2.0.0</AssemblyVersion>
+		<AssemblyVersion>2.0.0.0</AssemblyVersion>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<RepositoryType>git</RepositoryType>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 	</PropertyGroup>
-
-	<ItemGroup>
-		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
-		<PackageReference Include="System.Runtime" Version="4.3.1" />
-		<PackageReference Include="System.Runtime.Serialization.Primitives" Version="4.3.0" />
-	</ItemGroup>
 	<ItemGroup>
 		<None Include="README.md" Pack="true" PackagePath="\" />
 	</ItemGroup>

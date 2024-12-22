@@ -16,7 +16,7 @@ using Dime.ExtJs;
 
 public IEnumerable<MyData> Get(string filterString)
 {
-    Filter filterObject = JsonConvert.DeserializeObject<Filter>(filterString);
+    Filter filterObject = JsonSerializer.Deserialize<Filter>(filterString);
 }
 ```
 
